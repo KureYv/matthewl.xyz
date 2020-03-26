@@ -102,6 +102,6 @@ body{
     background-size: cover;
 }
 .title:hover{
-    font-color:rgb(83, 39, 243);
+    color:rgb(83, 39, 243);
     text-shadow: -1px -1px  white;
 }
