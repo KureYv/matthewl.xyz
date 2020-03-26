@@ -39,7 +39,7 @@ body{
 }
 
 .button{
-    width: vw;
+    width: 12vw;
     display:flex;
     background-color:white;
     border:none;
