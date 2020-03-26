@@ -18,6 +18,7 @@
     color: black;
     
 }
+
 #nav{
     margin:0;
     padding:0;
@@ -44,15 +45,16 @@ body{
     background-color:white;
     border:none;
     margin: auto auto;
-    margin-top:15rem;
     font-size:1.2rem;
     font-family: 'Baloo Thambi 2', cursive;
     font-weight:regular;
-    transition: 2s;
+    margin-top:10vh;
+    transition:1s;
     justify-content: center;
+    border-radius:1vh;
 }
 .wrapper{
-    height:3rem;
+    height:rem;
     margin:auto;
     padding:auto;
     width:50%;
@@ -61,6 +63,9 @@ body{
 body{
     background:rgb(31, 30, 30);
         
+}
+.title:hover{
+    color: rgb(83, 39, 243);
 }
 .button:hover{
     background-color:rgb(83, 39, 243);
@@ -79,8 +84,8 @@ body{
 .title{
     margin:0;
     padding:0;
-    margin-top:15rem;
     display:flex;
+    margin-top:20vh;
     font-family: 'Baloo Thambi 2', cursive;
     font-size: 5.5vw;
     color:white;
@@ -88,4 +93,15 @@ body{
     overflow:hidden;
     animation:type 3s steps(1000);
     text-align:center;
+    transition:0.5s;
+}
+.bimg{
+    background-image: url(ss.jpg);
+    height:81.2vh;
+    padding-top:7rem;
+    background-size: cover;
+}
+.title:hover{
+    font-color:rgb(83, 39, 243);
+    text-shadow: -1px -1px  white;
 }
