@@ -1,0 +1,91 @@
+.nav_button{
+    display: inline-block;
+    width:10%;
+    display:fixed;
+    font-size: 1vw;
+    font-family: 'Baloo Thambi 2', cursive;
+    transition: 0.4s;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align:center;
+
+}
+.nav_button:hover{
+    background-color:white;
+   
+}
+.nav_button:hover > a {
+    color: black;
+    
+}
+#nav{
+    margin:0;
+    padding:0;
+    height:1.5rem; 
+    text-align:right;
+    background:rgba(53, 54, 52);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    text-decoration:none;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.nav_button a{
+    text-decoration:none; 
+    color: rgba(210, 212, 210)
+}
+
+.button{
+    width:13rem;
+    display:flex;
+    background-color:white;
+    border:none;
+    margin: auto auto;
+    margin-top:15rem;
+    font-size:1.2rem;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight:regular;
+    transition: 2s;
+    justify-content: center;
+}
+.wrapper{
+    height:3rem;
+    margin:auto;
+    padding:auto;
+    width:50%;
+}
+
+body{
+    background:rgb(31, 30, 30);
+        
+}
+.button:hover{
+    background-color:rgb(83, 39, 243);
+    color:white;
+}
+
+@keyframes type{
+    0%{
+        width:0ch;
+    }
+    100%{
+        width: 20ch;
+    }
+}
+
+.title{
+    margin:0;
+    padding:0;
+    margin-top:15rem;
+    display:flex;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 5rem;
+    color:white;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:type 3s steps(1000);
+    text-align:center;
+}
