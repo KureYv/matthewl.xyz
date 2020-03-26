@@ -2,7 +2,7 @@
     display: inline-block;
     width:10%;
     display:fixed;
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-family: 'Baloo Thambi 2', cursive;
     transition: 0.4s;
     border-radius: 5px;
@@ -39,7 +39,7 @@ body{
 }
 
 .button{
-    width:13rem;
+    width: vw;
     display:flex;
     background-color:white;
     border:none;
@@ -82,7 +82,7 @@ body{
     margin-top:15rem;
     display:flex;
     font-family: 'Baloo Thambi 2', cursive;
-    font-size: 5rem;
+    font-size: 5.5vw;
     color:white;
     white-space:nowrap;
     overflow:hidden;
