@@ -116,5 +116,13 @@ body{
     text-shadow: -1px -1px  white;
 }
 
+.aboutme{
+    font-size:3vh;
+    font-family: 'Baloo Thambi 2', cursive;
+    color:white;
+}
 
-
+.line{
+    display:inline;
+    padding-right:10vh;
+}
