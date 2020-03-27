@@ -8,7 +8,7 @@
     border-radius: 5px;
     overflow: hidden;
     text-align:center;
-
+    
 }
 .nav_button:hover{
     background-color:white;
@@ -21,22 +21,29 @@
 
 #nav{
     margin:0;
+    width:100%;
     padding:0;
     height:1.5rem; 
     text-align:right;
     background:rgba(53, 54, 52);
-    padding-top: 1rem;
+    padding-top:0.5rem;
     padding-bottom: 1rem;
     padding-right: 2rem;
+    position:fixed;
     text-decoration:none;
+    
+    
 }
 body{
     margin:0;
     padding:0;
 }
 .nav_button a{
+    display: inline-flex;
     text-decoration:none; 
     color: rgba(210, 212, 210)
+    
+    
 }
 
 .button{
@@ -52,6 +59,7 @@ body{
     transition:1s;
     justify-content: center;
     border-radius:1vh;
+    
 }
 .wrapper{
     height:rem;
@@ -94,9 +102,11 @@ body{
     animation:type 3s steps(1000);
     text-align:center;
     transition:0.5s;
+    cursor: context-menu;
 }
 .bimg{
     background-image: url(ss.jpg);
+    background-attachment: fixed;
     height:81.2vh;
     padding-top:7rem;
     background-size: cover;
@@ -105,3 +115,6 @@ body{
     color:rgb(83, 39, 243);
     text-shadow: -1px -1px  white;
 }
+
+
+
