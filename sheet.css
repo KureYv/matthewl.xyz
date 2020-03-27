@@ -105,7 +105,7 @@ body{
     cursor: context-menu;
 }
 .bimg{
-    background-image: url(ss.jpg);
+    background-image: url(img/ss.jpg);
     background-attachment: fixed;
     height:81.2vh;
     padding-top:7rem;
