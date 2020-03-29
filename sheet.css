@@ -7,7 +7,6 @@
     font-family: 'Baloo Thambi 2', cursive;
     transition: 0.4s;
     border-radius: 5px;
-    overflow: hidden;
     text-align:center;
 }
 .nav_button:hover{
@@ -33,16 +32,21 @@
     text-decoration:none;
     z-index:100;
     
-    
 }
 html{
     scroll-behavior: smooth;
+    width:100%;
 }
 body{
     margin:0;
     padding:0;
     
+    
 }
+html,body{
+    overflow-x:hidden;
+}
+
 .nav_button a{
     display: inline-flex;
     text-decoration:none; 
@@ -286,6 +290,9 @@ body{
     #nav{
         width:97%;
     }
+    html{
+        width:100%;
+    }
     .gudtimesigh{
         top:670px;
         width:100vw;
@@ -326,6 +333,7 @@ body{
     .title{
         text-align:center;
         font-size:9vw;
+        
     }
 }
 
