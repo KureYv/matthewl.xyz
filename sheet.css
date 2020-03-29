@@ -283,6 +283,9 @@ body{
 
 
 @media (max-width:694px){
+    #nav{
+        width:97%;
+    }
     .gudtimesigh{
         top:670px;
         width:100vw;
