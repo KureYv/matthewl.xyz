@@ -193,17 +193,9 @@ body{
     font-family: 'Baloo Thambi 2', cursive;
     font-size:5vh;
     cursor:context-menu;
+    font-weight:1000;
 }
-.prjname{
-    background-color:rgb(58,58,58);
-    font-size:4vh;
-    font-family: 'Baloo Thambi 2', cursive;
-    font-weight:lighter;
-    color:white;
-    text-align:center;
-    border-radius:14px;
-    
-}
+
 .prjects{
     margin-left:2vh;
     margin-right:2vh;
@@ -222,9 +214,19 @@ body{
     text-decoration:none;
     color:white;
     transition:.5s;
+    background-color:rgb(114, 114, 114);
+    font-size:4vh;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight:lighter;
+    color:white;
+    padding-left:2vh;
+    text-align:center;
+    padding-right:20%;
+    border-radius:14px;
 }
 .link:hover{
     color:black;
+    background-color: white;
 }
 
 .smallcont{
