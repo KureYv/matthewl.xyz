@@ -33,10 +33,15 @@
     text-decoration:none;
     z-index:100;
     
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     margin:0;
     padding:0;
+    
 }
 .nav_button a{
     display: inline-flex;
@@ -95,6 +100,9 @@ body{
     transition:0.5s;
     cursor: context-menu;
     letter-spacing: 0.1em;
+}
+.container{
+    scroll-behavior: smooth;
 }
 .bimg{
     background-image: url(img/ss.jpg);
