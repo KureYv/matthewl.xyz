@@ -54,19 +54,16 @@ body{
     margin: auto auto;
     font-size:1.2rem;
     font-family: 'Baloo Thambi 2', cursive;
-    font-weight:regular;
     margin-top:10vh;
     transition:1s;
+    font-weight: bold;
     justify-content: center;
     border-radius:1vh;
     text-decoration: none;
     color:black;
 }
 .wrapper{
-    height:rem;
-    margin:auto;
-    
-    width:50%;
+    width:100%;
 }
 
 body{
@@ -82,29 +79,22 @@ body{
     width:14vw;
 }
 
-@keyframes type{
-    0%{
-        width:0ch;
-    }
-    100%{
-        width: 20ch;
-    }
-}
+
 
 .title{
+    font-weight: bold;
     margin:0;
     padding:0;
-    display:flex;
     margin-top:20vh;
     font-family: 'Baloo Thambi 2', cursive;
     font-size: 5.5vw;
     color:white;
     white-space:nowrap;
-    overflow:hidden;
-    animation:type 3s steps(1000);
+    padding:auto;
     text-align:center;
     transition:0.5s;
     cursor: context-menu;
+    letter-spacing: 0.1em;
 }
 .bimg{
     background-image: url(img/ss.jpg);
@@ -158,7 +148,7 @@ body{
 }
 .gudtimesigh{
     height:90%;
-    width: 550px;
+    width: 390;
     right:1vw;
     border-radius:10px;
     display:inline-flex;
@@ -172,9 +162,7 @@ body{
     position:relative;
     margin-bottom:3vh;
 }
-@media only screen (max-device-width : 768px) {
-    html,body { display: none; } 
-}
+
 .divpr{
     width:95%;
     height:95vh;
@@ -201,7 +189,7 @@ body{
     margin-right:2vh;
 }
 .websc{
-    background:rgb(58,58,58);
+    background:rgb(71, 71, 71);
     text-align:center;
     font-family: 'Baloo Thambi 2', cursive;
     color:white;
@@ -221,13 +209,14 @@ body{
     color:white;
     padding-left:2vh;
     text-align:center;
-    padding-right:20%;
+    padding-right:5%;
     border-radius:14px;
 }
 .link:hover{
     color:black;
     background-color: white;
 }
+
 
 .smallcont{
     font-family: 'Baloo Thambi 2', cursive;
@@ -287,7 +276,7 @@ body{
 
 @media (max-width:694px){
     .gudtimesigh{
-        top:690px;
+        top:650px;
         width:100vw;
         height:70vw;
         
@@ -323,11 +312,14 @@ body{
         margin-top:10px;
         font-size:5.1vw;
     }
-    
+    .title{
+        text-align:center;
+        font-size:9vw;
+    }
 }
 
 
-@media (min-width:694px) and (max-width:1436px){
+@media (min-width:694px) and (max-width:1000px){
     .gudtimesigh{
         top:430px;
         width:100vw;
