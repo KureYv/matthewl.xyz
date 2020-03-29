@@ -203,7 +203,7 @@ body{
     color:white;
     transition:.5s;
     background-color:rgb(114, 114, 114);
-    font-size:4vh;
+    font-size:3vh;
     font-family: 'Baloo Thambi 2', cursive;
     font-weight:lighter;
     color:white;
@@ -318,6 +318,14 @@ body{
     }
 }
 
+@media (max-height:564px) and (max-width:1082px){
+    .button{
+       width:30vw;
+    }
+    .button:hover{
+        width:35vw;
+    }
+}
 
 @media (min-width:694px) and (max-width:1000px){
     .gudtimesigh{
