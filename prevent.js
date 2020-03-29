@@ -10,5 +10,5 @@ function detectmobile() {
 }
 
 if ( detectmobile() && document.documentElement.clientWidth <= 768 ){
-    window.location.href = 'http://yourwebsite.com/pageformobiles';
+    window.location.href = 'https://www.google.com/search?sxsrf=ALeKk0051nyRLQoDcwvxrkfF-PAotFRTZw%3A1585455736700&ei=eCKAXsOlKq2a_Qa38qRg&q=No+mobile+devices+please&oq=No+mobile+devices+please&gs_lcp=CgZwc3ktYWIQAzIGCAAQFhAeOgQIABBHOgIIADoFCAAQzQJQglNYsF1g0GhoAHACeACAAfkBiAHpCpIBBTAuNC4zmAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwjDwfjv6r7oAhUtTd8KHTc5CQwQ4dUDCAs&uact=5';
 }
