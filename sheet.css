@@ -59,7 +59,8 @@ body{
     transition:1s;
     justify-content: center;
     border-radius:1vh;
-    
+    text-decoration: none;
+    color:black;
 }
 .wrapper{
     height:rem;
@@ -241,7 +242,9 @@ body{
     padding-right:40px;
     margin-right:2vh;
     float:right;
+    text-decoration: none;
     text-align: center;   
+    transition:.5s;
 }
 .smallcontss{
     font-family: 'Baloo Thambi 2', cursive;
@@ -251,9 +254,12 @@ body{
     border-radius:10px;
     margin-left:2vh;
     padding-left:40px;
-
     padding-right:40px;
     margin-right:2vh;
     float:right;
+    cursor: context-menu;
     text-align: center;   
+}
+.smallconts:hover{
+    color:black;
 }
