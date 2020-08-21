@@ -1,0 +1,143 @@
+{
+  "basics": {
+    "name": "Matthew Lee",
+    "label": "Student",
+    "picture": "https://weezity.github.io/template/images/matthew.jpg ",
+    "email": "matthewlee031205@gmail.com",
+    "phone": "",
+    "website": "https://weezity.github.io",
+    "summary": "Student of UHS. Currently volunteering at Code Club working as an instructor and currently working on a search enhancer that uses machine learning algorithyms. I work with frameworks in python and javascript and hope to become both a full-stack developer and machine learning intern.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "weezity",
+        "url": "http://github.com/weezity"
+      },
+      {
+        "network": "linkedin",
+        "username": "lee-chun-kit",
+        "url": "http://linkedin.com/in/lee-chun-kit"
+      },
+      {
+        "network": "instagram",
+        "username": "Matthew.l.05",
+        "url": "http://instagram.com/matthew.l.05"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "data mining",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "web scraping",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "full-stack development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "webapps",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "artificial intelligence",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "Python",
+        "HTML",
+        "CSS",
+        "Flask",
+        "MEAN stack"
+      ]
+    },
+    {
+      "name": "Toolsets",
+      "level": "",
+      "keywords": [
+        "Visual Studio Code",
+        "Vim",
+        "Git/GitHub",
+        "Heroku"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Unionville High School",
+      "area": "Computer Science",
+      "studyType": "High School Diploma",
+      "startDate": "2019-08-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "5n2",
+      "website": "http://5n2.ca",
+      "position": "Website Developer",
+      "startDate": "2020-08-20",
+      "endDate": "Present",
+      "summary": "Developer for website",
+      "highlights": [
+        "Design framework to sustain real-time info",
+        "Process orders through a mysql database"
+      ]
+    },
+    {
+      "organization": "Code Club",
+      "website": "https://codeclub.ca",
+      "position": "Instructor",
+      "startDate": "2020-08-10",
+      "endDate": "Present",
+      "summary": "Instructor for python course",
+      "highlights": [
+        "Teach students how to use python",
+        "2 hour commitment per week"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Honour Roll",
+      "date": "2020-Present",
+      "awarder": "Unionville High School",
+      "summary": "Honour Roll given to students with good grades"
+    },
+    {
+      "title": "Honour Roll",
+      "date": "2017",
+      "awarder": "United Christian College Kowloon East",
+      "summary": "Achieved good grades in school"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}
