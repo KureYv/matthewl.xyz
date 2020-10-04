@@ -1,0 +1,19 @@
+img{
+    transition:0.4s;
+}
+img:hover{
+    transform:scale(1.06);
+}
+
+h2{
+    transition:0.4s;
+}
+h2:hover{
+    transform:scale(1.06);
+}
+p{
+    transition:0.4s;
+}
+.pcl{
+    transform:scale(1.06);
+}

@@ -19,11 +19,11 @@
 
   <div class="column">
     <h2 class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
-    <p class="">{{ site.data.bio.basics.label }}</p>
-    <p class="">
+    <p class="pcl">{{ site.data.bio.basics.label }}</p>
+    <p class="pcl">
       {{ site.data.bio.basics.summary }}
     </p>
-    <p>Interests:
+    <p class = "pcl">Interests:
       {% for interest in site.data.bio.interests %}
         {{ interest.name }}{% if forloop.last != true %}, {% endif %}
       {% endfor %}
