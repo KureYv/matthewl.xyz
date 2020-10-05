@@ -20,4 +20,5 @@ p{
     transform:scale(1.06);
     background:grey;
     color:white;
+    border-radius:5px;
 }
