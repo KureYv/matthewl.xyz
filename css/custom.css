@@ -7,13 +7,17 @@ img:hover{
 
 h2{
     transition:0.4s;
+    cursor:default
 }
 h2:hover{
     transform:scale(1.06);
 }
 p{
     transition:0.4s;
+    cursor:default
 }
 .pcl:hover{
     transform:scale(1.06);
+    background:grey;
+    color:white;
 }
