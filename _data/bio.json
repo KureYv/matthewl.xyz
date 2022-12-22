@@ -23,7 +23,7 @@
       {
         "network": "linkedin",
         "username": "lee-chun-kit",
-        "url": "http://linkedin.com/in/matthew-lee-637515168/"
+        "url": "http://linkedin.com/in/matthewleeotu"
       },
       {
         "network": "stack overflow",
@@ -33,33 +33,28 @@
       {
         "network": "instagram",
         "username": "Matthew.l.05",
-        "url": "http://instagram.com/matthew.l.05"
+        "url": "http://instagram.com/wz.l.05"
       }
     ]
   },
   "interests": [
     {
-      "name": "data mining",
+      "name": "Artificial Intelligence/Machine Learning",
       "keywords": [
       ]
     },
     {
-      "name": "web scraping",
+      "name": "full-stack Development",
       "keywords": [
       ]
     },
     {
-      "name": "full-stack development",
+      "name": "Webscraping",
       "keywords": [
       ]
     },
     {
-      "name": "webapps",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "artificial intelligence",
+      "name": "Robotics",
       "keywords": [
       ]
     }
